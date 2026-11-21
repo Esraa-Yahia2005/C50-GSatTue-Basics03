@@ -49,6 +49,17 @@ namespace Assignment2_Roote
 
             #endregion
 
+            #region Question4
+            //Using the StringBuilder from the question above, use Replace() to change "Book List" into "Library". 
+            //Print the result.
+
+            sb.Replace("Book List", "Library");
+            Console.WriteLine(sb);
+
+            #endregion
+
+
+
 
         }
     }
