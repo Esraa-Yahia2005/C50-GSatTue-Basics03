@@ -75,8 +75,15 @@ namespace Assignment2_Roote
             Console.WriteLine($"Book: {Title}, Pages: {Pages}");
 
 
-            #endregion 
+            #endregion
 
+
+            #region Question7
+            //Build the same sentence again, but using string.Format().
+
+            Console.WriteLine(string.Format("Book: {0}, Pages: {1}", Title, Pages));
+
+            #endregion
 
         }
     }
