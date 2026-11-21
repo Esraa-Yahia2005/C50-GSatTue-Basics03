@@ -1,8 +1,9 @@
 ﻿using System.Drawing;
-using System.Security.Cryptography;
-using System.Threading.Channels;
-using System.Text;
 using System.Globalization;
+using System.Runtime.Intrinsics.X86;
+using System.Security.Cryptography;
+using System.Text;
+using System.Threading.Channels;
 
 namespace Assignment2_Roote
 {
@@ -213,6 +214,30 @@ namespace Assignment2_Roote
 
 
             #endregion
+
+            #region Question17
+            //Write a method PrintFirstBook() that prints the first book in the books array. If the array is empty, 
+            //use return to exit the method early instead of printing anything.
+
+
+            PrintFirstBook();
+
+            #endregion
+
+
+        }
+
+        static void PrintFirstBook()
+        {
+            string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            if (books != null)
+            {
+                Console.WriteLine(books[0]);
+            }
+            else
+            {
+                return;
+            }
         }
     }
 }
