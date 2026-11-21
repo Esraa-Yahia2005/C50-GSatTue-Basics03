@@ -168,10 +168,16 @@ namespace Assignment2_Roote
                 index++;
             }
 
-
-
-
             #endregion
+
+            #region  Question14
+            //Using the same books array, use a foreach loop to print every book title. 
+            foreach (string book in books)
+            {
+                Console.WriteLine(book);
+            }
+
+            #endregion 
 
         }
     }
