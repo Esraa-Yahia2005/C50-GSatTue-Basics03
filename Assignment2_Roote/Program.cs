@@ -59,7 +59,15 @@ namespace Assignment2_Roote
             #endregion
 
 
+            #region Question5
+            //Given string title = "Clean Code"; and int pages = 464;, build the sentence "Book: Clean Code, 
+            // Pages: 464" using the + operator. 
 
+            string Title = "Clean Code";
+            int Pages = 464;
+            Console.WriteLine("Book: " + Title + ",Pages: 464");
+
+            #endregion
 
         }
     }
