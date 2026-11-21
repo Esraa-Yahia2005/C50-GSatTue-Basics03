@@ -173,6 +173,20 @@ namespace Assignment2_Roote
             #endregion
 
             #region  Question14
+            //Write a do-while loop that prints "Checking book..." exactly 3 times.
+
+            int newIndex = 0;
+            do
+            {
+                Console.WriteLine(books[newIndex]);
+                newIndex++;
+
+            } while (newIndex < books.Length);
+
+
+            #endregion
+
+            #region  Question15
             //Using the same books array, use a foreach loop to print every book title. 
             foreach (string book in books)
             {
@@ -182,7 +196,7 @@ namespace Assignment2_Roote
             #endregion
 
 
-            #region Question15
+            #region Question16
             //Using the same books array, loop through it and print each title, but stop completely (break) once 
             //you reach "Refactoring".
 
@@ -197,7 +211,7 @@ namespace Assignment2_Roote
 
             #endregion
 
-            #region Question16
+            #region Question17
             //Using the same books array, print every title except "The Pragmatic Programmer" (skip it with 
             //continue, don't stop the loop). 
 
@@ -215,7 +229,7 @@ namespace Assignment2_Roote
 
             #endregion
 
-            #region Question17
+            #region Question18
             //Write a method PrintFirstBook() that prints the first book in the books array. If the array is empty, 
             //use return to exit the method early instead of printing anything.
 
