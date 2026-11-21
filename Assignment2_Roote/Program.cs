@@ -196,6 +196,23 @@ namespace Assignment2_Roote
 
             #endregion
 
+            #region Question16
+            //Using the same books array, print every title except "The Pragmatic Programmer" (skip it with 
+            //continue, don't stop the loop). 
+
+            for (int i = 0; i < books.Length; i++)
+            {
+                if (books[i]== "The Pragmatic Programmer")
+                {
+                    continue;
+                }
+                Console.WriteLine($"{books[i]}");
+            }
+
+
+
+
+            #endregion
         }
     }
 }
