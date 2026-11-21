@@ -1,4 +1,5 @@
-﻿using System.Security.Cryptography;
+﻿using System.Drawing;
+using System.Security.Cryptography;
 using System.Threading.Channels;
 
 namespace Assignment2_Roote
@@ -18,22 +19,22 @@ namespace Assignment2_Roote
             Console.WriteLine("Title: " + title);
             Console.WriteLine("UpperTitle: " + upperTitle);
 
-            #endregion 
+            #endregion
 
 
 
+            #region Question2
+            //Declare two separate string variables, both set to the literal "Clean Code". Use ReferenceEquals() 
+            //to check if they point to the same object in memory.
 
+            string S1 = "Clean Code";
+            string S2 = "Clean Code";
 
+            bool areSame = ReferenceEquals(S1, S2);
 
+            Console.WriteLine(areSame);
 
-
-
-
-
-
-
-
-
+            #endregion
 
 
         }
