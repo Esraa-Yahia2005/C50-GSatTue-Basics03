@@ -1,6 +1,7 @@
 ﻿using System.Drawing;
 using System.Security.Cryptography;
 using System.Threading.Channels;
+using System.Text;
 
 namespace Assignment2_Roote
 {
@@ -33,6 +34,18 @@ namespace Assignment2_Roote
             bool areSame = ReferenceEquals(S1, S2);
 
             Console.WriteLine(areSame);
+
+            #endregion
+
+
+            #region Question3
+            //Create a StringBuilder, Append() the text "Book List", then Append() " - Updated" onto the same 
+            //object.Print the final result.
+
+            StringBuilder sb = new StringBuilder("Book List");
+            sb.Append(" - Updated");
+            Console.WriteLine(sb);
+
 
             #endregion
 
