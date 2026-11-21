@@ -85,6 +85,23 @@ namespace Assignment2_Roote
 
             #endregion
 
+            #region Question8
+            //Given int pages = 464;, write an if / else statement that prints "Long Book" if pages is greater than 
+            //300, otherwise prints "Short Book".
+
+            if(Pages > 300)
+            {
+                Console.WriteLine("Long Book");
+            }
+            else
+            {
+                Console.WriteLine("Short Book");
+            }
+
+            #endregion
+
+
+
         }
     }
 }
