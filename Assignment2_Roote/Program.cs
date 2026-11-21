@@ -65,9 +65,18 @@ namespace Assignment2_Roote
 
             string Title = "Clean Code";
             int Pages = 464;
-            Console.WriteLine("Book: " + Title + ",Pages: 464");
+            Console.WriteLine("Book: " + Title + ", Pages: " + Pages);
 
             #endregion
+
+            #region Question6
+            //Build the same sentence as above, but using string interpolation ($"...").
+
+            Console.WriteLine($"Book: {Title}, Pages: {Pages}");
+
+
+            #endregion 
+
 
         }
     }
